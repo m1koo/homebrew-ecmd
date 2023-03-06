@@ -4,15 +4,13 @@
 class Ecmd < Formula
   desc ""
   homepage ""
-  url "https://raw.githubusercontent.com/m1koo/EasyCmd/main/packages/ecmd-1.0.4.tar.gz"
-  sha256 "b126228f16836bccd84f540fa034fb8c527e236ceea437de2831573a2034ecef"
+  url "https://raw.githubusercontent.com/m1koo/EasyCmd/main/packages/ecmd-1.0.2.tar.gz"
+  sha256 "3279b0b1904a994411790b6e42260e115f00808427ae519d6dcf77d4b6229404"
   license ""
 
   # depends_on "cmake" => :build
 
-  end
-  bin.install "ecmd"
-end
+  def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
