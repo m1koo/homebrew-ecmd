@@ -10,13 +10,9 @@ class Ecmd < Formula
 
   # depends_on "cmake" => :build
 
-  def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
-    # Remove unrecognized options if warned by configure
-    # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    system "./configure", *std_configure_args, "--disable-silent-rules"
-    # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-  end
+def install
+    bin.install "ecmd"
+  end  
 
   test do
     # `test do` will create, run in and delete a temporary directory.
@@ -28,6 +24,6 @@ class Ecmd < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    system "false"
+    system "#{bin}/ecmd", "--version"
   end
 end
