@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Ecmd10 < Formula
+class Ecmd < Formula
   desc ""
   homepage ""
   url "https://raw.githubusercontent.com/m1koo/EasyCmd/main/packages/ecmd-1.0.tar.gz"
