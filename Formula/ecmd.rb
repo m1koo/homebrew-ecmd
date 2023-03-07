@@ -4,8 +4,8 @@
 class Ecmd < Formula
   desc ""
   homepage ""
-  url "https://raw.githubusercontent.com/m1koo/EasyCmd/main/packages/ecmd-1.0.3.tar.gz"
-  sha256 "49f27f29cd9cbefc18f72b62adf336d7b7748e07f6e2a2a00788b45674ef252e"
+  url "https://raw.githubusercontent.com/m1koo/EasyCmd/main/packages/ecmd-1.0.4.tar.gz"
+  sha256 "7b6ad4e118aadb80507450824bdc246f62fd2cac833e9a2f59a5394a3a6d2292"
   license ""
 
   # depends_on "cmake" => :build
